@@ -17,7 +17,7 @@ apk add --no-cache fontconfig font-noto
 
 # get plantuml
 mkdir -p $PLANTUML_PATH
-curl -L https://sourceforge.net/projects/plantuml/files/plantuml.${PLANTUML_VERS}.jar/download -o ${PLANTUML_PATH}/plantuml.jar
+curl -sS -L https://sourceforge.net/projects/plantuml/files/plantuml.${PLANTUML_VERS}.jar/download -o ${PLANTUML_PATH}/plantuml.jar
 
 # setup ubuntu/debian compatible plantuml path
 mkdir -p /usr/share/plantuml
