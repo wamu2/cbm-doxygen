@@ -6,7 +6,7 @@ set -ex
 # define versions, path, repositories
 export PLANTUML_PATH=/opt/plantuml
 export PLANTUML_VERS=1.2020.19
-export DOXYGEN_VERS=1.8.20-r0
+export DOXYGEN_VERS=1.9.1-r0
 export DOXYGEN_REPO=http://dl-cdn.alpinelinux.org/alpine/edge/main
 
 # get apk repos
